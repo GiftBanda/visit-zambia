@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0f3057;
+    height: auto;
+    overflow: hidden;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    font-weight: 500;
+    
+}
+
+i {
+    font-size: 20px;
+    padding: 16px;
+}
+
+/* All Classes */
+
+.navbar a:hover {
+    
+    color: rgb(90, 89, 89);
+}
+
+.navbar ul li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.navbar h1 {
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #333;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px auto;
+    width: 1000px;
+    position: absolute;
+    left: 15%;
+    z-index: 2;
+}
+
+.showcase video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.showcase {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.brief small {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.brief p {
+    
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    left: 0%;
+    
+}
+
+.brief {
+    position: absolute;
+    top: 28%;
+    left: 26%;   
+}
+
+.brief h1 {
+    font-size: 60px;
+    font-family: 'Lora', serif;
+}
+
+.brief a {
+    display: inline-block;
+    position: relative;
+    
+    left: 40.5%;
+    margin-top: 8rem;
+    background-color: #bb5a04;
+    padding: 10px 16px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 400;
+    transition: 0.2s;
+}
+
+.brief a:hover {
+    transform: scale(0.9);
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    transition: 0.2s;
+    
+}
+
+.social-icons a {
+    margin: 0;
+    background-color: transparent;
+    left: 0;
+    transition: 0.2s;
+
+}
+
+.social-icons i:hover {
+    transform: scale(1.1);
+    color: #333;
+}
+
+.green {
+    color: #22a516;
+}
+
+.red {
+    color: #e21717;
+}
+
+.black {
+    color: #000;
+}
+
+.orange {
+    color: #e4730f;
+}
